@@ -23,7 +23,8 @@ HyperIdentity 平台目前提供使用简单、易于集成的 OpenID 服务。
       "err": 0,
       "msg": "OK",
       "userId": "838ba06d-d31b-4db2-8174-4ebf88388605",
-      "username": "testuser"
+      "username": "testuser",
+      "domain": "demo.example.com"
     }
 
 其中 `userId` 为用户唯一 ID ，`username` 为用户名。
