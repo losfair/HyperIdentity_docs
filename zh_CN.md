@@ -41,7 +41,7 @@ HyperIdentity 平台目前提供试验性的 OAuth 服务。
 
 在开发者的服务能够使用 OAuth 提供的用户相关接口前，用户需要在自己的 HyperIdentity 个人中心内授权相应服务。`serviceId` 即为服务授权所需的标识符，开发者引导用户输入即可。
 
-接口参数和返回内容传递均使用 JSON 格式。
+接口参数传递使用 URLEncoded Form 格式，返回内容使用 JSON 格式。
 
 目前，OAuth 服务提供了以下接口:
 
