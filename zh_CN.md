@@ -27,7 +27,7 @@ HyperIdentity 平台目前提供使用简单、易于集成的 OpenID 服务。
       "domain": "demo.example.com"
     }
 
-其中 `userId` 为用户唯一 ID ，`username` 为用户名。
+其中 `userId` 为用户唯一 ID ，`username` 为用户名， `domain` 为回调域。
 
 如果 `err` 不为 0 ，说明认证失败。失败原因包含在 `msg` 中。
 
