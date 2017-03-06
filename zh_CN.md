@@ -1,12 +1,12 @@
-# HyperIdentity SSO 开发文档
+# OneIdentity 开发文档
 
 ### 常量
 
-HyperIdentity 公共服务域: `hyperidentity.ifxor.com` （仅支持 HTTPS ）。以下所有调用地址均位于此域下。
+OneIdentity 公共服务域: `hyperidentity.ifxor.com` （仅支持 HTTPS ）。以下所有调用地址均位于此域下。
 
 ### OpenID
 
-HyperIdentity 平台目前提供使用简单、易于集成的 OpenID 服务。
+OneIdentity 平台目前提供使用简单、易于集成的 OpenID 服务。
 
 调用方法: 
 
@@ -33,13 +33,13 @@ HyperIdentity 平台目前提供使用简单、易于集成的 OpenID 服务。
 
 ### OAuth
 
-HyperIdentity 平台目前提供试验性的 OAuth 服务。
+OneIdentity 平台目前提供试验性的 OAuth 服务。
 
 调用方法：
 
-首先，开发者需要登录自己的 HyperIdentity 账户并创建服务，保存好 `serviceId` 和 `secretKey`。其中 `serviceId` 可以公开，`secretKey` 必须保密。
+首先，开发者需要登录自己的 OneIdentity 账户并创建服务，保存好 `serviceId` 和 `secretKey`。其中 `serviceId` 可以公开，`secretKey` 必须保密。
 
-在开发者的服务能够使用 OAuth 提供的用户相关接口前，用户需要在自己的 HyperIdentity 个人中心内授权相应服务。`serviceId` 即为服务授权所需的标识符，开发者引导用户输入即可。
+在开发者的服务能够使用 OAuth 提供的用户相关接口前，用户需要在自己的 OneIdentity 个人中心内授权相应服务。`serviceId` 即为服务授权所需的标识符，开发者引导用户输入即可。
 
 接口参数传递使用 URLEncoded Form 格式，返回内容使用 JSON 格式。
 
