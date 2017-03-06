@@ -2,7 +2,7 @@
 
 ### 常量
 
-OneIdentity 公共服务域: `hyperidentity.ifxor.com` （仅支持 HTTPS ）。以下所有调用地址均位于此域下。
+OneIdentity 公共服务域: `oneidentity.me` （仅支持 HTTPS ）。以下所有调用地址均位于此域下。
 
 ### OpenID
 
