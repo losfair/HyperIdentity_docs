@@ -1,2 +1,2 @@
-# HyperIdentity_docs
+# OneIdentity_docs
 Docs for development with HyperIdentity
